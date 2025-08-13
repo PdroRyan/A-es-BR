@@ -1,7 +1,7 @@
 # Preço de Ações
 Este projeto é um aplicativo web interativo desenvolvido com Streamlit e yfinance para visualizar a evolução do preço de ações brasileiras ao longo dos anos.
 
-🚀 Funcionalidades
+# Funcionalidades
 Busca automática de dados históricos de ações usando o Yahoo Finance.
 
 Seleção dinâmica de múltiplas ações para visualização.
@@ -10,9 +10,9 @@ Gráfico interativo de preços de fechamento.
 
 Cache de dados para evitar requisições repetidas e acelerar a aplicação.
 
-🖼️ Exemplo de Uso
+# Exemplo de Uso
 
-📦 Requisitos
+📦 Requisitos:
 Antes de rodar o projeto, instale as dependências:
 pip install -r requirements.txt
 requirements.txt
@@ -20,22 +20,34 @@ nginx
 streamlit
 yfinance
 pandas
-▶️ Como Executar
+
+# Como Executar
 
 Instale as dependências:
 pip install -r requirements.txtExecute o Streamlit:
 
 streamlit run main.py
+
 Acesse no navegador:
+
 http://localhost:8501
+
 📂 Estrutura do Projeto
+
 📁 streamlit-preco-acoes
+
  ├── main.py            # Código principal do app
+ 
  ├── requirements.txt   # Dependências do projeto
+ 
  └── README.md          # Documentação
+ 
 📜 Código Principal (main.py)
+
 import streamlit as st
+
 import yfinance as yf
+
 import pandas as pd
 
 st.set_page_config(layout="wide")

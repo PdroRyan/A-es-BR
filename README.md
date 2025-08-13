@@ -1,4 +1,4 @@
-App de Preço de Ações com Streamlit
+# Preço de Ações
 Este projeto é um aplicativo web interativo desenvolvido com Streamlit e yfinance para visualizar a evolução do preço de ações brasileiras ao longo dos anos.
 
 🚀 Funcionalidades
@@ -41,7 +41,6 @@ import pandas as pd
 st.set_page_config(layout="wide")
 
 st.write("""
-# App Preço de Ações
 O gráfico abaixo representa a evolução do preço das ações brasileiras ao longo dos anos
 """)
 
